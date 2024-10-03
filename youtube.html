@@ -1,25 +1,52 @@
-<html>
-  <body>
+<!DOCTYPE html> <html>
+<head>
+    <title>Types of Rocks</title>
+    <style>
+        /* Add CSS styles here */
+        button {
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
     <h1>Types of Rocks</h1>
     <ul>
-      <li>
-        <h2><em>Igneous Rocks</em></h2>
-        <p>Formed from molten magma or lava.<a href="https://www.usgs.gov/faqs/what-are-igneous-rocks#:~:text=Igneous%20rocks%20(from%20the%20Latin,then%20rises%20toward%20the%20surface.">More details </a></p>
-        <img src="https://media.australian.museum/media/dd/images/Some_image.c5adf64.width-1200.ecd1135.jpg" alt="Igneous Rocks">
-      </li>
-      <li>
-        <h2><em>Sedimentary Rocks</em></h2>
-        <p>Formed from compressed sediments. <a href="https://www.usgs.gov/faqs/what-are-sedimentary-rocks#:~:text=Sedimentary%20rocks%20are%20formed%20from,have%20distinctive%20layering%20or%20bedding.">More details </a></p>
-        <img src="https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638892115/EducationHub/photos/sedimentary-rock.jpg" alt="Sedimentary Rocks">
-      </li>
-      <li>
-        <h2><em>Metamorphic Rocks</em></h2>
-        <p>Transformed from existing rocks under pressure. <a href="https://www.usgs.gov/faqs/what-are-metamorphic-rocks#:~:text=Metamorphic%20rocks%20started%20out%20as,some%20combination%20of%20these%20factors.">More details </a></p>
-        <img src="https://www.thoughtco.com/thmb/kMpsXRxAVavlVSMGnKa-ErACu-Y=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/rocpicamphibolite-56a367f25f9b58b7d0d1c9e5.jpg" alt="Metamorphic Rocks">
-         <button style="padding: 50px; font-size: 50px;"><a href="https://lolman23-dev.github.io/Subparts/Thanks.html">Like</a></button>
-        <button style="padding: 50px; font-size: 50px;"><a href="https://bd901a3ddd964ae8a388cbd91d3cce1c.el.mimo.run/index.html">Dislike</a></button>
-      </li>
+        <li>
+            <h2><em>Igneous Rocks</em></h2>
+            <p>Formed from molten magma or lava.
+                <a href="https://www.usgs.gov/faqs/what-are-igneous-rocks#:~:text=Igneous%20rocks%20(from%20the%20Latin,then%20rises%20toward%20the%20surface">More details</a>
+            </p>
+            <img src="https://media.australian.museum/media/dd/images/Some_image.c5adf64.width-1200.ecd1135.jpg" alt="Igneous Rocks">
+        </li>
+        <li>
+            <h2><em>Sedimentary Rocks</em></h2>
+            <p>Formed from compressed sediments.
+                <a href="https://www.usgs.gov/faqs/what-are-sedimentary-rocks#:~:text=Sedimentary%20rocks%20are%20formed%20from,have%20distinctive%20layering%20or%20bedding">More details</a>
+            </p>
+            <img src="https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638892115/EducationHub/photos/sedimentary-rock.jpg" alt="Sedimentary Rocks">
+        </li>
+        <li>
+            <h2><em>Metamorphic Rocks</em></h2>
+            <p>Transformed from existing rocks under pressure.
+                <a href="https://www.usgs.gov/faqs/what-are-metamorphic-rocks#:~:text=Metamorphic%20rocks%20started%20out%20as,some%20combination%20of%20these%20factors">More details</a>
+            </p>
+            <img src="https://www.thoughtco.com/thmb/kMpsXRxAVavlVSMGnKa-ErACu-Y=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/rocpicamphibolite-56a367f25f9b58b7d0d1c9e5.jpg" alt="Metamorphic Rocks">
+            <button id="like-btn">Like</button>
+            <button id="dislike-btn">Dislike</button>
+        </li>
     </ul>
-<br><br><br><br><br><br>
-  </body>
+    <script>
+        // Add JavaScript functionality here
+        document.getElementById('like-btn').addEventListener('click', function() {
+            // Implement liking functionality here
+            console.log('Like button clicked!');
+        });
+        
+        document.getElementById('dislike-btn').addEventListener('click', function() {
+            // Implement disliking functionality here
+            console.log('Dislike button clicked!');
+        });
+    </script>
+</body>
 </html>
